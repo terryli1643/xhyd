@@ -1,11 +1,9 @@
-# 美行思远超级管理后台
+# 测试项目
 
-### 1. git clone ssh://git@10.0.1.55:10022/idealens-mx/mx-react.git
+### 1. npm install
 
-### 2. npm install
+### 2. npm start
 
-### 3. npm start
+### 3. open http://localhost:3000
 
-### 4. open http://localhost:3000
-
-### 5. build:  npm run build
+### 4. build:  npm run build
