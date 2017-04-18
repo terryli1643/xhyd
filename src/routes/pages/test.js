@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+export default class Test extends Component {
     render = () => {
         return (
-            <h2>欢迎使用本系统</h2>
+            <h2>查询测试单号</h2>
         )
     }
 }

@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import "./css.less"
+
+import ContentListSearch from '../../components/dashboard/Search';
+import ContentListTable from '../../components/dashboard/Table';
 
 export default class Printed extends Component {
+
     render = () => {
         return (
-            <h2>已打查询</h2>
+            <div>
+                <ContentListSearch />
+                <ContentListTable />
+            </div>
         )
     }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+export default class Reused extends Component {
     render = () => {
         return (
-            <h2>欢迎使用本系统</h2>
+            <h2>已被重用</h2>
         )
     }
 }

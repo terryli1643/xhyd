@@ -8,16 +8,25 @@ import Home from "./routes/pages/Home";
 import UnPrint from "./routes/pages/UnPrint";
 import Printed from "./routes/pages/Printed";
 import SingleSend from "./routes/pages/SingleSend";
+import Unsent from "./routes/pages/unsent";
+import Reused from "./routes/pages/Reused";
+import Check from "./routes/pages/check";
+import  Test from "./routes/pages/test";
 
 export const ReactRouter = () => {
     return (
         <Router history={ browserHistory }>
             <Route path="/" component={myLayout}>
                 <Route path="login" component={Login} />
+                <Route path="dashboard" component={Home} />
                 <Route path="home" component={Home} />
-                <Route path="unprint" component={UnPrint} />
+                <Route path="unPrint" component={UnPrint} />
                 <Route path="printed" component={Printed} />
-                <Route path="singlesend" component={SingleSend} />
+                <Route path="singleSent" component={SingleSend} />
+                <Route path="unsent" component={Unsent} />
+                <Route path="reused" component={Reused} />
+                <Route path="check" component={Check} />
+                <Route path="test" component={Test} />
             </Route>
             <Route path="/nopermission" component={NotPermission} />
             <Route path="*" component={NotFound} />
