@@ -8,8 +8,8 @@ export default class UnPrint extends Component {
     render = () => {
         return (
             <div>
-                <ContentListSearch  />
-                <ContentListTable  />
+                <ContentListSearch />
+                <ContentListTable />
             </div>
         )
     }

@@ -42,7 +42,7 @@ const columns = [ {
     title: '操作',
     key: 'action',
     render: (text, record) => (
-        <Button type="primary" onClick={() => (updateHandleClick(record.id))}>修改</Button>
+        <Button type="primary">修改</Button>
     )
 } ];
 

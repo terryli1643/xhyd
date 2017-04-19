@@ -19,7 +19,7 @@ const menuData = [ {
         name: "单个发货",
         url: "/singleSent",
         keyValue: "querySingleSent",
-        breadcrumb: [ "学校管理", "新增学校" ]
+        breadcrumb: [ "控制台", "单个发货" ]
     } ]
 }, {
     name: "面单操作",
